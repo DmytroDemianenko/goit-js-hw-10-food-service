@@ -2,7 +2,7 @@
   "name": "goit-js-hw-10-food-service1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "homepage": "https://DmytroDemianenko.github.io/goit-js-hw-10-food-service1",
   "scripts": {
     "dev": "parcel src/*.html",
