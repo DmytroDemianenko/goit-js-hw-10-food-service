@@ -14,7 +14,7 @@ const refs = {
 };
 const theme = localStorage.getItem('Theme');
    ( function () {
-        refs.menuList.insertAdjacentHTML('beforeend', createMenu(menu));
+       refs.menuList.insertAdjacentHTML('beforeend', createMenu(menu));
        refs.body.classList.add(theme ? theme:Theme.LIGHT);
        refs.toggleButton.checked = theme === Theme.DARK;
     })();
